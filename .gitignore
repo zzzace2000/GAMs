@@ -1,9 +1,7 @@
 .ipynb_checkpoints/
 mtl_data
 example_notebooks/
-interpret/
 __pycache__/
-models
 pneumonia/RaniHasPneumonia
 .Rhistory
 .vscode/
