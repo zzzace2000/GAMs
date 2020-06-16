@@ -1,0 +1,57 @@
+Thank you to everyone here for your impactful contributions!
+
+- Yin Lou
+- Sarah Tan
+- Xuezhou Zhang
+- Johannes Gehrke
+- Marco Tulio Ribeiro
+- Gabriel Alon
+- Giles Hooker
+- Marc Sturm
+- Noemie Elhadad
+- Steven Drucker
+- Rob DeLine
+- Fred Hohman
+- Jina Suh
+- Jenn Wortman Vaughan
+- Hanna Wallach
+- Walter Martin
+- Eduardo de Leon
+- Ilya Mattiach
+- Vincent Xu
+- Mehrnoosh Sameki
+- Sarah Bird
+- Daniel Schnieder
+- Brandon Horn
+- Adam Raczkowski
+- Ester de Nicolas Benito
+- Nick Craswell
+- Lucas Meyer
+- Urszula Chajewska
+- Tanuja Bompada
+- Rogan Carr
+- Tom Finley
+- Muhammed Arrabi
+- Javier Salido
+- Steve Sweetman
+- Chris Jones
+- Joshua Allen
+- Levent Ozgur
+- Steve Lim
+- Scott Hoogerwerf
+- Jacquelyn Krones
+- Sam Sun
+- Ioana Marginas
+- Gregory Ellison
+- Allan Sepillo
+- Holly Stewart
+- Rob McCann
+- Christian Seifert
+- Nader Albussam
+- Jeffrey Schlimmer
+- Keith Haunreiter
+- Dean Carignan
+- Tom Mereckis
+- Ken Johnston
+- Rob Mauceri
+- Eric Horvitz
