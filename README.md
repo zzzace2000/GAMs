@@ -4,36 +4,35 @@ This repo is to reproduce the result of the paper. To only just use the models o
 
 ## Install
 
-We use the following package:
-
-- interpret: https://github.com/interpretml/interpret (we use the modified version in the folder my_interpret/, so no need to install)
-- scikit-learn
-- xgboost
-- rpy2
-- R programming language
-- R package flam
-
-You can first install the python package via:
-
-`conda create --name <env> --file ./conda_env.txt`
-
-Then install R and R package flam, if you want to run the FLAM model. You can run ``` install.packages('flam') ``` in R console.
-
-## Model Usage
-
+We use Python 3.6 and the following packages:
 ```
-from arch import MyXGBClassifier
+pip install pandas scikit-learn numpy seaborn xgboost interpret rpy2 pygam
+```
 
-model = MyXGBClassifier()
-model.fit(X, y)
+We use our modified version of ebm for the experiments to get EBM with best-first version (EBM-BF). To use it, go into the directory my_interpret/ and run:
+```
+bash build.sh
+```
 
-df = model.get_GAM_plot_dataframe()
-df.head()
+We also use the R packages to run the R spline and FLAM models. To install:
+1. If you already have R installed, go into the R console and run
+```
+install.packages('mgcv')
+install.packages('flam')
+```
+
+2. If you do not have R installed and are using conda environment, you can do:
+```
+conda install -c r r r-mgcv
+```
+Then install flam inside R console (run ``` R() ```):
+```
+install.packages('flam')
 ```
 
 ## Paper results
 
-We provide the csv summary of model performance and shape graphs for each GAM in this repo for easier reproducibility.
+We provide all the intermediate files produced in the following commands in the folder results/. 
 Pre-trained models are too large to keep, but we could provide them upon requests.
 
 ## Running the code to reproduce the paper result
@@ -46,7 +45,6 @@ For example, if we want to run an experiment with XGB classifier with tree depth
 
 And we can run the Support2 classification datasets, then we set the d_name as "support2cls2".
 (We support datasets "adult", "breast", "churn", "credit", "heart", "support2cls2")
-
 
 ```
 model_name='xgb-d1-o100'
@@ -66,7 +64,6 @@ churn_dict = pickle.load(open('results/0927-091719_datasets-df/churn.pkl', 'rb')
 
 from vis_utils import vis_main_effects
 vis_main_effects(churn_dict, model_names=['ebm-o100-i100-q', 'xgb-d1-o100'])
-
 ```
 
 

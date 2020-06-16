@@ -236,7 +236,7 @@ def parse_args():
     parser.add_argument('--check_in_records', type=int, default=1,
         help='If set as 1, then check if the output csv already has the result. If so, skip.')
     parser.add_argument('--start_split', type=int, default=0)
-    parser.add_argument('--n_splits', type=int, default=10, 
+    parser.add_argument('--n_splits', type=int, default=5, 
         help='Rerun the experiment for this number of splits')
     parser.add_argument('--test_size', type=float, default=0.15, 
         help='How many data to be set as test set')
