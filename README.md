@@ -32,7 +32,7 @@ install.packages('flam')
 
 ## Paper results
 
-We provide all the intermediate files produced in the following commands in the folder results/. 
+We provide all the intermediate files produced by the following commands in the folder results/. 
 Pre-trained models are too large to keep, but we could provide them upon requests.
 
 ## Running the code to reproduce the paper result
