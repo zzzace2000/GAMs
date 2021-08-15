@@ -1,6 +1,10 @@
 # The repository for paper "How Interpretable and Trustworthy are GAMs?"
 
+Arxiv: https://arxiv.org/abs/2006.06466
+KDD2021 presentation: https://youtu.be/u5fCXNcRVak
+
 This repo is to reproduce the result of the paper. To only just use the models on your own datasets, please see the simplified repo https://github.com/zzzace2000/GAMs_models/
+
 
 ## Install
 
